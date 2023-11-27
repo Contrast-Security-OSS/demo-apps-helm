@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  terracotta-bank:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-27T15:44:20.088067Z"
+    description: A Helm chart for Kubernetes
+    digest: fa78a516ad27e2f13b6782d1faf2b7c98c9509dd22063732f851b1cd0c914528
+    name: terracotta-bank
+    type: application
+    urls:
+    - terracotta-bank-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-27T15:44:20.086957Z"
