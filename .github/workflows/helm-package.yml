@@ -1,10 +1,11 @@
 name: Package/Index Helm Charts
 
 on:
-   push:
-      paths:
-         - 'terracotta-bank/**'
-#         - 'path/to/any/other/chart/**'
+  push:
+    paths:
+        - 'terracotta-bank/**'
+    #   - 'path/to/any/other/chart/**'
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
