@@ -1,4 +1,4 @@
-name: Package, Index, and Publish Multiple Helm Charts
+name: Package/Index Helm Charts
 
 on:
    push:
