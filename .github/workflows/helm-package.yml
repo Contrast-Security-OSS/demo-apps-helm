@@ -25,10 +25,13 @@ jobs:
       - name: Package Helm Charts
         run: |
           mkdir -p .deploy
-          for d in path/to/chart*; do
-            if [ -d "$d" ]; then
-              helm package "$d" -d .deploy
-            fi
+          paths=('terracotta-bank/*') # Define your paths here
+          for path in "${paths[@]}"; do
+            for d in $path; do
+              if [ -d "$d" ]; then
+                helm package "$d" -d .deploy
+              fi
+            done
           done
 
       - name: Update Helm Repo Index
