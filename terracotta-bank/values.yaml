@@ -96,3 +96,6 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+#Contrast specific values
+environment: Development
