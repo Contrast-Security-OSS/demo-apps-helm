@@ -4,10 +4,17 @@
     "properties": {
       "environment": {
         "type": "string",
-        "title": "Environment",
+        "title": "Contrast Server Environment",
         "enum": ["Development", "QA", "Production"],
-        "default": "Development",
-        "description": "Set the environment directly to override the default set by the Contrast TeamServer"
+        "default": "Development"
+      },
+      "application_name": {
+        "type": "string",
+        "title": "Application Name"
+      },
+      "server_name": {
+        "type": "string",
+        "title": "Server Name (Optional)"
       }
     }
   }

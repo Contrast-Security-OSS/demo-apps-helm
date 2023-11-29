@@ -71,6 +71,10 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       env:
+      - name: CONTRAST__APPLICATION__NAME
+        value: {{ .Values.application_name }}
       - name: CONTRAST__SERVER__ENVIRONMENT
         value: {{ .Values.environment }}
+      - name: CONTRAST__SERVER__NAME
+        value: {{ .Values.server_name }}
 

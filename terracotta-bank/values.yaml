@@ -99,3 +99,5 @@ affinity: {}
 
 #Contrast specific values
 environment: Development
+application_name: Terracotta Bank
+server_name: ""
