@@ -6,7 +6,8 @@
         "type": "string",
         "title": "Environment",
         "enum": ["Development", "QA", "Production"],
-        "default": "Development"
+        "default": "Development",
+        "form": true
       }
     }
   }
