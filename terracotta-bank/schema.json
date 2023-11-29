@@ -7,7 +7,7 @@
         "title": "Environment",
         "enum": ["Development", "QA", "Production"],
         "default": "Development",
-        "form": true
+        "description": "Set the environment directly to override the default set by the Contrast TeamServer"
       }
     }
   }
